@@ -1,0 +1,53 @@
+html {
+    background-color: #B0C1D9; 
+    background-repeat: no-repeat; background-size: 100%;
+    
+}
+*, *:before, *:after{
+    box-sizing: unset;
+}
+
+body {
+    font-family: '_Lora_';
+    line-height: 1.2;
+    background:#D6FFF1
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+<element class="container" {
+
+}
+
+.container {
+    max-width: 90px;
+    margin: 40px auto;
+    
+    
+    
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 20px;
+    padding: 24px 0;
+    border-bottom: 1px solid darkgray;
+}
+
+.my-name {
+    font-size: 48px;
+}
+
+.section-title {
+    font-size: 28px;
+}
+.my-title {
+    font-size: 28px;
+}
+.education-title2 {
+    top: auto;
+}
