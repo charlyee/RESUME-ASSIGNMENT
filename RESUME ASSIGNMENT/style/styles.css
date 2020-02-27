@@ -1,33 +1,36 @@
 html {
-    background-color: #B0C1D9; 
-    background-repeat: no-repeat; background-size: 100%;
+    background-image: url(/img/download.png); 
     
+
 }
-*, *:before, *:after{
-    box-sizing: unset;
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
 }
 
 body {
+   
     font-family: '_Lora_';
     line-height: 1.2;
-    background:#D6FFF1
+    background-image: url(/img/2.jfif);
     
 }
 
 img {
     max-width: 100%;
+    border-radius: 50%;
 }
 
-<element class="container" {
-
-}
 
 .container {
     max-width: 90px;
     margin: 40px auto;
-    
-    
-    
 }
 
 section {
@@ -51,3 +54,9 @@ section {
 .education-title2 {
     top: auto;
 }
+
+.job {
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+
