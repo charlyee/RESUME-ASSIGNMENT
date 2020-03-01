@@ -1,62 +1,75 @@
-html {
-    background-image: url(/img/download.png); 
-    
-
+body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .bg {
+    background: url(../images/1091461-full-size-3d-high-resolution-wallpapers-1920x1080-for-mobile.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-.rotate90 {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-}
-
-body {
-   
-    font-family: '_Lora_';
-    line-height: 1.2;
-    background-image: url(/img/2.jfif);
-    
-}
-
-img {
-    max-width: 100%;
-    border-radius: 50%;
-}
-
-
-.container {
-    max-width: 90px;
-    margin: 40px auto;
-}
-
-section {
+  .body-grid{
+    background: url(/images/1091461-full-size-3d-high-resolution-wallpapers-1920x1080-for-mobile.jpg);
+    background-size: 100%;
+    background-position: center;
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-gap: 20px;
-    padding: 24px 0;
-    border-bottom: 1px solid darkgray;
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: 20% auto 20%;
+    height: 100vh;
+    }
+    
+.links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.grid-1{
+    /* border: solid black 2px; */
+}
+.grid-2{
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    text-align: center;
+}
+.links {
+ padding: 20px;;
 }
 
-.my-name {
-    font-size: 48px;
+.grid-3{
+    /* border: solid black 2px; */
+    
+}
+.grid-4{
+    /* border: solid black 2px; */
+}
+.grid-5{
+    /* border: solid black 2px; */
+}
+.grid-6{
+    /* border: solid black 2px; */
+    
+}
+.grid-7{
+    /* border: solid black 2px; */
+}
+.grid-8{
+    /* border: solid black 2px; */
+    justify-items: center;
+}
+.grid-9{
+    /* border: solid black 2px; */
+    
 }
 
-.section-title {
-    font-size: 28px;
+  @media only screen and (max-width: 430px) {
+    .left,
+    .right {
+      display: none;
+    }
+    .stuff {
+      width: 100%;
+      margin-left: 10px;
+    }
+  
+  
 }
-.my-title {
-    font-size: 28px;
-}
-.education-title2 {
-    top: auto;
-}
-
-.job {
-    padding-bottom: 24px;
-    margin-bottom: 24px;
-}
-
