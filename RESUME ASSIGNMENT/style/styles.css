@@ -24,7 +24,7 @@ body, html {
     justify-content: space-evenly;
 }
 .grid-1{
-    /* border: solid black 2px; */
+    border: none;
 }
 .grid-2{
     grid-template-rows: 100px 100px 100px;
@@ -36,28 +36,28 @@ body, html {
 }
 
 .grid-3{
-    /* border: solid black 2px; */
+    border: none;
     
 }
 .grid-4{
-    /* border: solid black 2px; */
+    border: none;
 }
 .grid-5{
-    /* border: solid black 2px; */
+    border: none;
 }
 .grid-6{
-    /* border: solid black 2px; */
+    border: none;
     
 }
 .grid-7{
-    /* border: solid black 2px; */
+    border: none;
 }
 .grid-8{
-    /* border: solid black 2px; */
+    border: none;
     justify-items: center;
 }
 .grid-9{
-    /* border: solid black 2px; */
+    border: none;
     
 }
 
@@ -71,5 +71,52 @@ body, html {
       margin-left: 10px;
     }
   
-  
+}
+.fa-twitter-square {
+    font-size: 10vh;
+}
+.fa-linkedin {
+    font-size: 10vh;
+}
+
+.fa-github-square {
+    font-size: 10vh;
+}
+
+.fa-font-awesome {
+    font-size: 10vh;
+}
+
+.fa-puzzle-piece {
+    font-size: 10vh;
+}
+
+.fa-amazon {
+    font-size: 10vh;
+}
+
+.fa-dropbox {
+    font-size: 10vh;
+}
+
+
+.fa-cloud-sun {
+    font-size: 10vh;
+}
+
+.fa-slack {
+    font-size: 10vh;
+}
+
+.fa-adobe {
+    font-size: 10vh;
+}
+
+.fa-youtube-square {
+    font-size: 10vh;
+}
+
+.links
+{
+    text-decoration: none;
 }
